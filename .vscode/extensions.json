@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "jnoortheen.nix-ide",
+    "arrterian.nix-env-selector",
+    "jkillian.custom-local-formatters",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "byCedric.vscode-expo"
+  ]
+}

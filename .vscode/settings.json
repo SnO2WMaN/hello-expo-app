@@ -1,0 +1,46 @@
+{
+  "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+  "customLocalFormatters.formatters": [
+    {
+      "command": "treefmt -q --stdin ${file}",
+      "languages": [
+        "json",
+        "jsonc",
+        "markdown",
+        "nix",
+        "toml",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ]
+    }
+  ],
+  "[nix]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  }
+}
